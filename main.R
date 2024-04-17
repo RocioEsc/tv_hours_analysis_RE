@@ -1,7 +1,6 @@
 library(tidyverse)
 library(here)
 
-
 tv_hours_tabulations <- gss_cat %>%
   filter(age < 30) %>% 
   group_by(marital) %>% 
